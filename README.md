@@ -2,7 +2,9 @@
 ### Testing
 1.
 ![image](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/10c66803-d09d-455c-9e69-6b64d024865e)
+
 2.
+
 ![image](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/b7ad93b4-fcf6-4cbf-8f4b-2df04bf7052b)
 
 ### Results
