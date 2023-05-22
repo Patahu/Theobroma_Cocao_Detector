@@ -40,8 +40,6 @@ Create a `assets` folder with your pytorch model and labels if needed. Modify `p
 
 ```yaml
 assets:
- - assets/models/model_classification.pt
- - assets/labels_classification.txt
  - assets/models/model_objectDetection.torchscript
  - assets/labels_objectDetection.txt
 ```
