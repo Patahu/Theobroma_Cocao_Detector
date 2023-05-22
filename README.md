@@ -74,15 +74,6 @@ ModelObjectDetection objectModel = await FlutterPytorch.loadObjectDetectionModel
 objectModel.renderBoxesOnImage(_image!, objDetect)
 ```
 
-### Image prediction for an image with custom mean and std
-```dart
-final mean = [0.5, 0.5, 0.5];
-final std = [0.5, 0.5, 0.5];
-String prediction = await classificationModel
-        .getImagePrediction(image, mean: mean, std: std);
-```
-
-
 
 #References 
 - Code used the same strucute as the package https://pub.dev/packages/pytorch_mobile
