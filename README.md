@@ -1,3 +1,23 @@
+
+### Results
+
+1. Confusion matrix
+
+![confusion_matrix](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/21f5d063-5c3b-431f-a975-f42a81b5d09e)
+2. Precision Confidence Curve
+
+![P_curve](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/a97e94e0-78da-4f13-bef4-02325b560fab)
+
+3. Others
+
+![results](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/519d1273-863e-483b-9b76-441fc6c3cce1)
+
+Train
+![train_batch1](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/4a366b01-13c9-4fa0-988e-df61079f2859)
+
+Val
+![val_batch1_labels](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/a0fb7d81-897a-4686-98b9-9ae27954c510)
+
 # flutter_pytorch
 
 - flutter plugin to help run pytorch lite models classification for example yolov5 doesn't give support for yolov7
@@ -80,24 +100,6 @@ objectModel.renderBoxesOnImage(_image!, objDetect)
 - While using the updated code from https://github.com/pytorch/android-demo-app
 
 Get render boxes with image
-### Results
-
-1. Confusion matrix
-
-![confusion_matrix](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/21f5d063-5c3b-431f-a975-f42a81b5d09e)
-2. Precision Confidence Curve
-
-![P_curve](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/a97e94e0-78da-4f13-bef4-02325b560fab)
-
-3. Others
-
-![results](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/519d1273-863e-483b-9b76-441fc6c3cce1)
-
-Train
-![train_batch1](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/4a366b01-13c9-4fa0-988e-df61079f2859)
-
-Val
-![val_batch1_labels](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/a0fb7d81-897a-4686-98b9-9ae27954c510)
 
 
 
