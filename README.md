@@ -7,8 +7,6 @@
 
 ## Usage
 ## preparing the model 
-```
-
 - object detection (yolov5)
 ```python
 !python export.py --weights "the weights of your model" --include torchscript --img 640 --optimize
@@ -18,13 +16,8 @@ example
 !python export.py --weights yolov5s.pt --include torchscript --img 640 --optimize
 ```
 ### Installation
-
 To use this plugin, add `pytorch_lite` as a [dependency in your pubspec.yaml file](https://flutter.dev/docs/development/packages-and-plugins/using-packages).
-
 Create a `assets` folder with your pytorch model and labels if needed. Modify `pubspec.yaml` accordingly.
-
- 
-
 
 ```yaml
 assets:
@@ -64,35 +57,11 @@ import 'package:flutter_pytorch/flutter_pytorch.dart';
 
 Either classification model:
 ```dart
-ClassificationModel classificationModel= await FlutterPytorch.loadClassificationModel(
-          "assets/models/model_classification.pt", 224, 224,
-          labelPath: "assets/labels/label_classification_imageNet.txt");
-```
-Or objectDetection model:
+ObjectDetection model:
 ```dart
 ModelObjectDetection objectModel = await FlutterPytorch.loadObjectDetectionModel(
           "assets/models/yolov5s.torchscript", 80, 640, 640,
           labelPath: "assets/labels/labels_objectDetection_Coco.txt");
-```
-
-### Get classification prediction as label
-
-```dart
-String imagePrediction = await classificationModel.getImagePrediction(await File(image.path).readAsBytes());
-```
-### Get classification prediction as raw output layer
-
-```dart
-List<double?>? predictionList = await _imageModel!.getImagePredictionList(
-      await File(image.path).readAsBytes(),
-    );
-```
-### Get classification prediction as Probabilities (incase model is not using softmax)
-
-```dart
-List<double?>? predictionListProbabilites = await _imageModel!.getImagePredictionListProbabilities(
-      await File(image.path).readAsBytes(),
-    );
 ```
 ### Get object detection prediction for an image
 ```dart
@@ -118,4 +87,27 @@ String prediction = await classificationModel
 #References 
 - Code used the same strucute as the package https://pub.dev/packages/pytorch_mobile
 - While using the updated code from https://github.com/pytorch/android-demo-app
+
+Get render boxes with image
+### Results
+
+1. Confusion matrix
+
+![confusion_matrix](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/21f5d063-5c3b-431f-a975-f42a81b5d09e)
+2. Precision Confidence Curve
+
+![P_curve](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/a97e94e0-78da-4f13-bef4-02325b560fab)
+
+3. Others
+
+![results](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/519d1273-863e-483b-9b76-441fc6c3cce1)
+
+Train
+![train_batch1](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/4a366b01-13c9-4fa0-988e-df61079f2859)
+
+Val
+![val_batch1_labels](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/a0fb7d81-897a-4686-98b9-9ae27954c510)
+
+
+
 
