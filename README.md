@@ -1,4 +1,4 @@
-# object_detection
+# Cocao detector
 
 A new Flutter project.
 
