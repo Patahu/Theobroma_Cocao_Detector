@@ -1,5 +1,0 @@
-cacao_sano
-cacao_muerto
-cacao_con_palmivora
-cacao_sano_maduro
-cacao_con_palmivora_maduro

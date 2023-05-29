@@ -1,3 +1,0 @@
-cacao_saludable
-cacao_enfermo
-cacao_muerto
