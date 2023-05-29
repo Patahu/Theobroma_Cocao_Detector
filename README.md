@@ -1,16 +1,15 @@
 # Cocao detector
 
-A new Flutter project.
+Cocoa detector (Theobroma cacao L.) and classification with Yolov5 and flutter, the classification it performs is: 
+- dead 
+- sick 
+- healthy
+### TEST
+1.
 
-## Getting Started
+![cacao204](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/92c71130-7579-4ba5-9d8d-9390f93bbfb2)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+![Screenshot_20230529_160525_com example object_detection](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/c03ecdef-e562-4ab1-82ba-bd663ff9c7d2)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
