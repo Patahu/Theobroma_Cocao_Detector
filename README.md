@@ -1,9 +1,9 @@
 # Cocao detector
 
 Cocoa detector (Theobroma cacao L.) and classification with Yolov5 and flutter, the classification it performs is: 
-- dead 
-- sick 
-- healthy
+- dead (cacao_muerto)
+- sick (cacao_enfermo)
+- healthy (cacao_saludable)
 ### TEST
 1.
 
@@ -58,9 +58,8 @@ Recall confidence curve
 ![R_curve](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/bea04b10-acde-426c-8780-01aebf169291)
 
 Results
-- dead (cacao_muerto)
-- sick (cacao_enfermo)
-- healthy (cacao_saludable)
+
+
 
 ![results](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/3225ad7b-6095-42a7-abcb-772145cf0bd6)
 
