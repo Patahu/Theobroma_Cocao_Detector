@@ -54,7 +54,7 @@ Recall confidence curve
 Results
 - dead (cacao_muerto)
 - sick (cacao_enfermo)
-- healthy (saludable)
+- healthy (cacao_saludable)
 
 ![results](https://github.com/Patahu/TheobromaCacaoDetector/assets/55921419/3225ad7b-6095-42a7-abcb-772145cf0bd6)
 
