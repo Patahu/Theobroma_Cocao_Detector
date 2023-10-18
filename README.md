@@ -4,6 +4,8 @@ Cocoa detector (Theobroma cacao L.) and classification with Yolov5 and flutter, 
 - dead (cacao_muerto)
 - sick (cacao_enfermo)
 - healthy (cacao_saludable)
+PLUGIN: https://pub.dev/packages/flutter_pytorch
+DATA: https://www.kaggle.com/datasets/geovannileon/sick-cacao-enfermo/data
 ### TEST
 1.
 
