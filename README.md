@@ -1,8 +1,4 @@
-# This application is currently being improved, all rights reserved for degrees and titles from the National University of San Cristobal de Huamanga.
-# Geovanni Leon-Perez , José Yauri 
-# Dpto. Matemática y Física, Universidad Nacional de San Cristóbal de Huamanga, Av. Independencia S/N, 05000 Ayacucho, Perú; jose.yauri@unsch.edu.pe (J.Y.)
-# Centro de Visió por Computador, Universitat Autònoma de Barcelona; , C/ Sitges, Edifici O, 08193 Bellaterra, España
-# Correspondence: {geovanni.leon.27, jose.yauri}@unsch.edu.pe
+
 
 # Cocao detector
 
@@ -13,7 +9,7 @@ Cocoa detector (Theobroma cacao L.) and classification with Yolov5 and flutter, 
 
 PLUGIN: https://pub.dev/packages/flutter_pytorch
 
-DATA: https://www.kaggle.com/datasets/geovannileon/sick-cacao-enfermo/data
+DATA: https://ieee-dataport.org/documents/dataset-peruvian-cocoa-fruits-automatic-disease-detection
 ### TEST
 1.
 
